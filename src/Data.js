@@ -1,4 +1,4 @@
-// src/data.js
+
 export const PROVIDERS = [
     {
         id: 1,
@@ -40,3 +40,4 @@ const AllProfessions = PROVIDERS.map((p) =>p.profession.toLowerCase());
 const uniqueProfessionsSet = new Set (AllProfessions);
 const uniqueProfessions = Array.from(uniqueProfessionsSet);
 export const PROFESSIONS = uniqueProfessions.sort();
+
